@@ -1,6 +1,7 @@
 package com.nitzanidolidor.cakeit.activities;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         fusedLocationProviderClient =  LocationServices.getFusedLocationProviderClient(this);
 
         if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            //getLocation();
             fusedLocationProviderClient.getLastLocation().addOnCompleteListener(new OnCompleteListener<Location>() {
                 @Override
                 public void onComplete(@NonNull Task<Location> task) {
