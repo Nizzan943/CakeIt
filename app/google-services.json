@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "84245338032",
+    "project_id": "cakeit-913a8",
+    "storage_bucket": "cakeit-913a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84245338032:android:0609fbb6f371ea49c0e875",
+        "android_client_info": {
+          "package_name": "com.nitzanidolidor.cakeit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84245338032-rssc2f91rsqlq869q2a4dbch8nl645ss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7pQSYihNY4ZyAIuAb0dkoP3K2vcpaUEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84245338032-rssc2f91rsqlq869q2a4dbch8nl645ss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
